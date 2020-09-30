@@ -1,176 +1,194 @@
-// 1. erase everything below this line and paste in your geojson
-// 2. add the following before your pasted content, so that the map
-//    will understand how to find your geojson. See README.md for more info
-//
-//    var json =
-//
-//    See example below:
 
-var json = {
+// 
+var json={
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#555555",
-        "fill-opacity": 0.5,
-        "image": "https://1.bp.blogspot.com/-WbftUEch0t0/X2DQmPdyksI/AAAAAAAAAIs/JHH1hwcqN0IVWsR8KCYabom1fqoweHBFACLcBGAsYHQ/w1684-h1069-p-k-no-nu/hearts.jpg",
-        "title": "Nebraska State Capitol",
-        "description": "Some description about something that happened at the capitol"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -96.70105934143066,
-              40.806971850092815
-            ],
-            [
-              -96.69826984405518,
-              40.806971850092815
-            ],
-            [
-              -96.69826984405518,
-              40.809131953785965
-            ],
-            [
-              -96.70105934143066,
-              40.809131953785965
-            ],
-            [
-              -96.70105934143066,
-              40.806971850092815
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#ee05ff",
+        "marker-color": "#e21212",
         "marker-size": "medium",
         "marker-symbol": "",
-        "ingredients": "rhubarb, strawberries, egg, milk, butter, so much sugar",
-        "thanks": "thanks to Linnea for giving me a pie",
-        "title": "Starting Point",
-        "image": "https://s3.amazonaws.com/omeka-net/53984/archive/square_thumbnails/e5847940c8baa5e9e50ad71ee468ba0e.jpg?AWSAccessKeyId=AKIAI3ATG3OSQLO5HGKA&Expires=1600905600&Signature=PapYafLVt%2BGfMiI%2F06Ibpay%2FXPk%3D"
+        "title": "example point",
+        "image": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/190007611@N04/50364904376/in/album-72157716054666967/\" title=\"Picture 7: Restricted Area: Chairs in Corner\"><img src=\"https://live.staticflickr.com/65535/50364904376_0d5200c551_n.jpg\" width=\"240\" height=\"320\" alt=\"Picture 7: Restricted Area: Chairs in Corner\"></a><script async src=\"//embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+        "date": "Sept. 2020"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -96.70299053192137,
-          40.81015513625622
+          -96.70482516288757,
+          40.81622082257484
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#ff5100",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "title": "Path to the library",
-        "image": "https://1.bp.blogspot.com/-WbftUEch0t0/X2DQmPdyksI/AAAAAAAAAIs/JHH1hwcqN0IVWsR8KCYabom1fqoweHBFACLcBGAsYHQ/w1684-h1069-p-k-no-nu/hearts.jpg"
+        "marker-color": "#00ff1e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "love library",
+        "image": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/190007611@N04/50364909876/in/album-72157716054666967/\" title=\"Picture 6: Floor Arrow Stickers in the Library\"><img src=\"https://live.staticflickr.com/65535/50364909876_0b6cdbce90_n.jpg\" width=\"240\" height=\"320\" alt=\"Picture 6: Floor Arrow Stickers in the Library\"></a><script async src=\"//embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+        "description": "red sign stickers",
+        "month": "September",
+        "year ": 2020
       },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.70298516750336,
+          40.8186079687254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#dc06f9",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "red covid sign",
+        "image": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/190007611@N04/50364237188/in/album-72157716054666967/\" title=\"Picture 1: &quot;Protect Yourself and Our Husker Community&quot; Sign\"><img src=\"https://live.staticflickr.com/65535/50364237188_1e1e5bb8b9_n.jpg\" width=\"320\" height=\"240\" alt=\"Picture 1: &quot;Protect Yourself and Our Husker Community&quot; Sign\"></a><script async src=\"//embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
+        "date": "Sept. 2020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.70368790626526,
+          40.817609275175144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0a06f4",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "\"Enter Only Sign\"",
+        "Image": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/190007611@N04/50364228558/in/album-72157716054666967/\" title=\"Picture 2: &quot;Enter Only&quot; Door Sign\"><img src=\"https://live.staticflickr.com/65535/50364228558_6d2af1d501_n.jpg\" width=\"240\" height=\"320\" alt=\"Picture 2: &quot;Enter Only&quot; Door Sign\"></a><script async src=\"//embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.70220732688904,
+          40.8193387105778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#00fffb",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Title": "Andrew's Hallway",
+        "Image": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/190007611@N04/50364915106/in/album-72157716054666967/\" title=\"Picture 4: Andrews Hall During COVID\"><img src=\"https://live.staticflickr.com/65535/50364915106_cb96590e35_n.jpg\" width=\"320\" height=\"240\" alt=\"Picture 4: Andrews Hall During COVID\"></a><script async src=\"//embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script> ",
+        "date": "Sept 2020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.70150995254517,
+          40.81937118780665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -96.69979333877563,
-            40.80922127986828
+            -96.7047929763794,
+            40.81637509652106
           ],
           [
-            -96.69986844062804,
-            40.811389430620544
+            -96.7047607898712,
+            40.81706526504568
           ],
           [
-            -96.6997504234314,
-            40.811405671182825
+            -96.70404195785522,
+            40.81708962380358
           ],
           [
-            -96.6996967792511,
-            40.81468618325975
+            -96.70405268669128,
+            40.817593036131385
           ],
           [
-            -96.69984698295592,
-            40.8146943031379
-          ],
-          [
-            -96.69984698295592,
-            40.816837916207085
-          ],
-          [
-            -96.70262575149535,
-            40.81687851427114
+            -96.70363426208495,
+            40.81768235082279
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "stroke": "#d4ff00",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#0060ff",
-        "fill-opacity": 0.2,
-        "title": "Love Library",
-        "image": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/189753833@N07/50237618773/in/album-72157715528007683/\" title=\"yawn_connie\"><img src=\"https://live.staticflickr.com/65535/50237618773_c9052299b5_w.jpg\" width=\"300\" height=\"400\" alt=\"yawn_connie\"></a><script async src=\"//embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>",
-        "random": "Some other random field"
-      },
+      "properties": {},
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              -96.70274376869202,
-              40.817040906278805
-            ],
-            [
-              -96.70216441154479,
-              40.81700030831414
-            ],
-            [
-              -96.70187473297119,
-              40.817235776163265
-            ],
-            [
-              -96.70193910598755,
-              40.81753619944697
-            ],
-            [
-              -96.70217514038086,
-              40.81769858984467
-            ],
-            [
-              -96.70218586921692,
-              40.818104564099706
-            ],
-            [
-              -96.70297980308533,
-              40.81808832517719
-            ],
-            [
-              -96.70300126075745,
-              40.817609275175144
-            ],
-            [
-              -96.70323729515076,
-              40.81742252593206
-            ],
-            [
-              -96.70299053192137,
-              40.81704902586876
-            ],
-            [
-              -96.70274376869202,
-              40.817040906278805
-            ]
+            -96.7036771774292,
+            40.81782850187658
+          ],
+          [
+            -96.70405268669128,
+            40.81780414338999
+          ],
+          [
+            -96.7040205001831,
+            40.818291311422705
+          ],
+          [
+            -96.7030656337738,
+            40.818283191984804
+          ],
+          [
+            -96.70308709144592,
+            40.818664804491505
+          ],
+          [
+            -96.70297980308533,
+            40.8187054014375
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.70296907424925,
+            40.818693222356295
+          ],
+          [
+            -96.70306026935577,
+            40.818737878976386
+          ],
+          [
+            -96.7030656337738,
+            40.818843430868
+          ],
+          [
+            -96.7026150226593,
+            40.81928593504708
+          ],
+          [
+            -96.7026150226593,
+            40.81935088954049
+          ],
+          [
+            -96.70221269130707,
+            40.81936712815391
+          ],
+          [
+            -96.70149922370909,
+            40.81939148606658
           ]
         ]
       }
